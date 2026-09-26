@@ -1,8 +1,6 @@
 # Image Review Tool
 
-A small local web app for triaging a bounded sample of classified insect crops per order, so a human reviewer doesn't have to go through the entire dataset (100,000+ crops) to get a real accuracy signal.
-
-Pure Python standard library — **no pip installs needed**, just Python 3.
+A small local web app for triaging a bounded sample of classified insect crops per order, so a human reviewer doesn't have to go through the entire dataset (100,000+ crops) to get a real accuracy signal. Just need Python 3.
 
 ## What it does
 
