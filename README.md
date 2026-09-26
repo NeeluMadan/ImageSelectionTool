@@ -9,11 +9,12 @@ Two dropdowns at the top control what you see:
 1. **Class**: Diptera, Hymenoptera, ...
 2. **Confidence bag**: *All*, *High* (≥80%), *Medium* (50–80%), or *Low*(<50%). Each option shows how many you've reviewed and how many are available in that bag.
 
-The tool then serves crops from that class + bag **one at a time, in random order**, drawn from the entire directory. Review as many as you can, stop whenever you've had enough, switch class or bag whenever you like. Whatever you've reviewed by then *is* the sample.
+**Features:**
+- Sample drawn **one at a time, in random order** from a class + confidence.
+- Switch class or bag whenever you like.
+- Review card as showing calibration view (it shows whether "high confidence" really means mostly-correct and "low confidence" really means mostly-wrong.)
 
-Below the review card, a table breaks the selected class down by confidence bag with a live **% correct** column (correct / (correct + wrong), discards excluded). That's the calibration view: it shows whether "high confidence" really means mostly-correct and "low confidence" really means mostly-wrong. Reviewing a few from each bag is more informative than reviewing many from just one.
-
-For each crop shown, you pick:
+For each crop shown, we pick:
 
 - **Correct**: the predicted order is right
 - **Wrong**: it's misclassified (optionally say what it actually is)
