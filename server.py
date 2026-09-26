@@ -235,7 +235,7 @@ INDEX_HTML = """<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>MassID45 Review Tool</title>
+<title>Insect Review Tool</title>
 <style>
   :root { color-scheme: light; }
   * { box-sizing: border-box; }
