@@ -8,8 +8,8 @@ Pure Python standard library — **no pip installs needed**, just Python 3.
 
 Two dropdowns at the top control what you see:
 
-1. **Class** — Diptera, Hymenoptera, ...
-2. **Confidence bag** — *All*, *High* (≥80%), *Medium* (50–80%), or *Low*(<50%). Each option shows how many you've reviewed and how many are available in that bag.
+1. **Class**: Diptera, Hymenoptera, ...
+2. **Confidence bag**: *All*, *High* (≥80%), *Medium* (50–80%), or *Low*(<50%). Each option shows how many you've reviewed and how many are available in that bag.
 
 The tool then serves crops from that class + bag **one at a time, in random order**, drawn from the entire directory. Review as many as you can, stop whenever you've had enough, switch class or bag whenever you like. Whatever you've reviewed by then *is* the sample.
 
@@ -19,7 +19,7 @@ For each crop shown, you pick:
 
 - **Correct**: the predicted order is right
 - **Wrong**: it's misclassified (optionally say what it actually is)
-- **Discard** — this isn't a real detection (debris, artifact, tray edge, etc.)
+- **Discard**: this isn't a real detection (debris, artifact, tray edge, etc.)
 
 The original data folder is **never modified**. Decisions go to:
 
